@@ -7,3 +7,5 @@ Setup:
 3. Download the genotype/phenotype dataset [FROM HERE](http://genomics.cimmyt.org/mexican_iranian/traverse/iranian/standarizedData_univariate.RData)
 and move it to the `./lib/data/` directory.
 4. To generate the feature and target pickle files, run `python initialize.py` from the main directory.
+
+An example of how to load the prepared feature (X) and target (y) dataframes is given in `scripts/data_load_example.ipynb`
