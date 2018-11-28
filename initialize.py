@@ -1,3 +1,3 @@
-from lib.data import df_prep
+from lib.data import DataFramePreparation
 
-df_prep.feature_target_load('./lib/data/')
+DataFramePreparation.feature_target_load('./lib/data/')
